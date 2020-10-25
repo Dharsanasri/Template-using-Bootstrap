@@ -1,0 +1,28 @@
+body{
+font-family: 'Merriweather', serif;
+}
+.height{
+    min-height: 100vh;
+}
+
+.title-underline{
+    width:100px;
+    height: 10px;
+    margin: 0 auto;
+    background: red;
+}
+.height-60{
+    min-height: 100vh;
+}
+
+.about-picture{
+    background: url(img/aboutbcg.jpeg)center/cover no-repeat fixed;
+   /* background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;*/
+}
+#filler,#progress{
+    background: linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.9)),url(img/filler.jpeg)center/cover 
+    no-repeat fixed;
+}
